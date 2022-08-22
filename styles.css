@@ -1,0 +1,34 @@
+body{
+    background-color: bisque;
+    font-family: monospace;
+    font-size: large;
+}
+
+#nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#nav-bar-container > a {
+    margin-right: 50px;
+}
+
+#hero-container{
+    margin: 20vh auto;
+    margin-left: 5em;
+    text-align: justify;
+}
+
+#hero-container > img {
+    width: 50vw;
+    float: right;
+    margin-right: 80px;
+}
+
+#my-work-button{
+    width: 8rem;
+    height: 2rem;
+    background-color: blueviolet;
+    border-radius: 3px;
+}
